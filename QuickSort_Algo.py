@@ -1,13 +1,10 @@
-#quick sort 
+#quick sort which sorts in bigger or lower
 
 A = [8,16,1]
 
 #Use last number as pivoit
 
-
 def quick_sort (sequence):
-
-    print (sequence)
 
     lenght = len(sequence)
 

@@ -19,6 +19,5 @@ def BinarySearch (A, Target):
             left = midpoint + 1
     return -1 
 
-
 Answer = BinarySearch(A, Target)
 print (Answer)
