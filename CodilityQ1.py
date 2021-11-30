@@ -5,6 +5,7 @@ def solution(S):
     compare = ["B", "A" , "L" ,"O", "N"]
 
     Counted_Dct = {
+
     }
     for i in compare: 
         if i == "L" or i == "O":
@@ -16,7 +17,4 @@ def solution(S):
 
     answer = min(Counted_Dct.values())
     print (answer)
-
-    
-
 solution(S)
