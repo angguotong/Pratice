@@ -1,6 +1,6 @@
-A = [-1,0,1,3,4,5,6,7,8,9,10,11,12,13,14]
+A = [1,2,3,4,5]
 
-Target = 12
+Target = 3
 
 #binary sort to find the numebr
 
@@ -15,7 +15,7 @@ def BinarySearch (A, Target):
             return A[midpoint]
         elif Target < A[midpoint]:
             right = midpoint - 1
-        elif Target > midpoint:
+        elif Target > A[midpoint]:
             left = midpoint + 1
     return -1 
 
